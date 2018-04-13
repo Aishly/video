@@ -24,17 +24,30 @@
                                     <constraint firstAttribute="height" constant="200" id="epo-5U-Y4G"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gs-yN-Q1R">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="u1f-Yt-BRe"/>
+                                </constraints>
+                                <state key="normal" title="Select"/>
+                                <connections>
+                                    <action selector="Play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HEC-oC-Xvs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="9gs-yN-Q1R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7EE-hJ-9MU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dc7-GL-8r6" secondAttribute="trailing" constant="10" id="AmU-NX-t2s"/>
                             <constraint firstItem="Dc7-GL-8r6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ShL-Fg-u0d"/>
                             <constraint firstItem="Dc7-GL-8r6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="ao5-PO-d6g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9gs-yN-Q1R" secondAttribute="bottom" id="f7k-GA-6C8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9gs-yN-Q1R" secondAttribute="trailing" id="qt6-E3-NA0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="video_view" destination="Dc7-GL-8r6" id="3mB-db-Khy"/>
+                        <outlet property="playVideo" destination="Dc7-GL-8r6" id="vXS-K9-UfP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
