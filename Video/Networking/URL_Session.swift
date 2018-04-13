@@ -1,10 +1,11 @@
 //
 //  URL_Session.swift
-//  ReadyAssist
+//  Video
 //
-//  Created by Pooja Negi on 09/01/18.
-//  Copyright © 2018 ReadyAssist. All rights reserved.
+//  Created by Pooja Negi on 12/04/18.
+//  Copyright © 2018 PNKBKSH. All rights reserved.
 //
+
 import Foundation
 
 //HTTP Methods

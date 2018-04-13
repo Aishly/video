@@ -1,9 +1,9 @@
 //
-//  alert.swift
-//  alertViewTest
+//  AlertModel.swift
+//  Video
 //
-//  Created by Pooja Negi on 08/11/17.
-//  Copyright © 2017 ReadyAssist. All rights reserved.
+//  Created by Pooja Negi on 12/04/18.
+//  Copyright © 2018 PNKBKSH. All rights reserved.
 //
 
 import Foundation

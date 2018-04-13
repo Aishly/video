@@ -1,9 +1,9 @@
 //
 //  Reachability.swift
-//  ReadyAssist
+//  Video
 //
-//  Created by Pooja Negi on 5/9/17.
-//  Copyright © 2017 ReadyAssist. All rights reserved.
+//  Created by Pooja Negi on 12/04/18.
+//  Copyright © 2018 PNKBKSH. All rights reserved.
 //
 
 

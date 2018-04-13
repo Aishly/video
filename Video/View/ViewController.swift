@@ -7,19 +7,38 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController{
+    
+    @IBOutlet weak var video_view:UIView!
+    
+    var player : AVPlayer!
+    var playerLayer:AVPlayerLayer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let url = URL(string:"https://www.youtube.com/watch?v=EuQLMXyGQOE")!
+        player = AVPlayer(url: url)
+        
+        playerLayer = AVPlayerLayer(player: player)
+        playerLayer.videoGravity = .resizeAspect
+        
+        video_view.layer.addSublayer(playerLayer)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        DispatchQueue.main.async {
+             self.player?.play()
+        }
+        
     }
-
+   
 
 }
 

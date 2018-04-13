@@ -6,4 +6,7 @@
 //  Copyright © 2018 PNKBKSH. All rights reserved.
 //
 
+import UIKit
 import Foundation
+
+let activityIndicator   = CustomAlert(title: "", image:  #imageLiteral(resourceName: "GearLoader-1"))
